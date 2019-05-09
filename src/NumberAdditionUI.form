@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JFileChooser" name="FileChooser">
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Save"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Load"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[594, 484]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[594, 484]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabelAge" min="-2" pref="76" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelAgeNumber" min="-2" pref="84" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabelName" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                              <Component id="jLabelNameNumber" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabelRace" max="32767" attributes="0"/>
+                          <Component id="jLabelClass" min="-2" pref="37" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelRaceNumber" max="32767" attributes="0"/>
+                          <Component id="jLabelClassNumber" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabelAlignment" min="-2" pref="76" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelAlignmentNumber" min="-2" pref="84" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelMoney" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelMoneyNumber" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabelTypeOfGeneration" min="-2" pref="106" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelTypeOfGenerationNumber" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jLabelStrength" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Component id="jLabelDexterity" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Component id="jLabelConstitution" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Component id="jLabelIntelligence" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Component id="jLabelWisdom" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Component id="jLabelCharisma" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabelHeight" min="-2" pref="48" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabeHeightNumber" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jLabelStrengthNumber" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                              <Component id="jLabelDexterityNumber" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                              <Component id="jLabelConstitutionNumber" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                              <Component id="jLabelIntelligenceNumber" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                              <Component id="jLabelWisdomNumber" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                              <Component id="jLabelCharismaNumber" alignment="1" min="-2" pref="96" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabelHeight1" min="-2" pref="48" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabeWeightNumber" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="jButtonGenerate" alignment="1" min="-2" pref="195" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="jLabelStrengthNumber" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelDexterityNumber" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelConstitutionNumber" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelIntelligenceNumber" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelWisdomNumber" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCharismaNumber" min="-2" pref="25" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelHeight1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="jLabeWeightNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabelHeight" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Component id="jLabeHeightNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelStrength" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelDexterity" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelConstitution" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelIntelligence" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelWisdom" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCharisma" min="-2" pref="25" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelTypeOfGenerationNumber" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelTypeOfGeneration" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButtonGenerate" min="-2" pref="101" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabelName" min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelAge" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="jLabelAgeNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelRace" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="jLabelRaceNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="jLabelNameNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelClass" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Component id="jLabelClassNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelAlignment" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelAlignmentNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabelMoney" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelMoneyNumber" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelConstitution">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Constitution:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStrength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Strength:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDexterity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dexterity:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCharisma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Charisma:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelIntelligence">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Intelligence:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelWisdom">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wisdom:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTypeOfGeneration">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Type of generation:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelHeight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Height:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelRace">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Race:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelImage" pref="323" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabelImage" pref="321" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabelImage">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButtonGenerate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GENERATE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonGenerateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelWisdomNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTypeOfGenerationNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabeHeightNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelConstitutionNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelStrengthNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDexterityNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCharismaNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelIntelligenceNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAlignment">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alignment:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelClass">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Class:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAgeNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMoneyNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNameNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelRaceNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAlignmentNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMoney">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Money:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelClassNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabeWeightNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xa0;&#xa0;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelHeight1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Weight:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
